@@ -1,0 +1,19 @@
+package EXT5;
+
+import java.util.*;
+import java.util.Scanner;
+
+public class BAI5 {
+
+    public static void main(String[] args) {
+        Random ne = new Random();
+        Scanner non = new Scanner(System.in);
+        int i = ne.nextInt(10) + 1;
+        System.out.println("so random:" + i);
+        int n;
+        do {
+            System.out.print("nhap n:");
+            n = non.nextInt();
+        } while (n != i);
+    }
+}
