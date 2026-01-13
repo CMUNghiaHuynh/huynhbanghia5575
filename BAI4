@@ -1,7 +1,7 @@
 package EXT5;
 import java.util.*;
 import java.util.Scanner;
-public class BAI5D {
+public class BAI4 {
     public static void main(String[] args) {
         Random ne = new Random();
         System.out.print("nhap n:");
