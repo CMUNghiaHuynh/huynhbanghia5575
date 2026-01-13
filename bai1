@@ -1,0 +1,14 @@
+gói EXT5;
+
+import java.util.*;
+
+public class BAI1 {
+
+    public static void main(String[] args) {
+        Random ne = new Random();
+        System.out.print("nhap n:");
+        int n = ne.nextInt(100) + 1;
+        System.out.print("n = " + n);
+    }
+
+}
