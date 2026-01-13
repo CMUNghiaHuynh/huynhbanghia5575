@@ -1,15 +1,15 @@
 
-gói EXT5;
+package EXT5;
 import java.util.*;
 import java.util.Scanner;
-lớp công khai BAI3 {
+public class BAI5C {
     public static void main(String[] args) {
         Random ne = new Random();
         System.out.print("nhap n:");
         int n = ne.nextInt(80-3+1)+1;
-        nếu (n % 2 == 0) {
+        if(n%2==0){
          System.out.print("n = " + n + "la so chan");
-        }khác{
+        }else{
         System.out.print("n = " + n + "la so le");
         }
  }
