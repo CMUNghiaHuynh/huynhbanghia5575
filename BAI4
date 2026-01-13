@@ -1,0 +1,15 @@
+package EXT5;
+import java.util.*;
+import java.util.Scanner;
+public class BAI5D {
+    public static void main(String[] args) {
+        Random ne = new Random();
+        System.out.print("nhap n:");
+        double n = ne.nextDouble()*(100.0-1.0);
+        if(n>50){
+         System.out.print("n = " + n + "la so lon");
+        }else{
+        System.out.print("n = " + n + "la so nho");
+        }
+    }
+}
