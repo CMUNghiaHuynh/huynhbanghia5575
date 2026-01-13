@@ -1,0 +1,11 @@
+gói EXT5;
+import java.util.*;
+import java.util.Scanner;
+lớp công khai BAI2 {
+ public static void main(String[] args) {
+        Random ne = new Random();
+        System.out.print("nhap n:");
+        double n = ne.nextDouble()*(8.0 - 1.8 );
+        System.out.print("n = " + n);
+ }
+ }
