@@ -1,0 +1,24 @@
+package EXT5;
+import java.util.*;
+import java.util.Scanner;
+public class BAI5S {
+    public static void main(String[] args) {
+        Random ne = new Random();
+        Scanner non = new Scanner(System.in);
+        int i = ne.nextInt(100) + 1;
+        System.out.println("so random:" + i);
+        int n;
+        do {
+            System.out.print("so ban muon :");
+            n = non.nextInt();
+            if(n>i){
+            System.out.println("nhap so lon hon :");
+            }else if(n==i){
+             System.out.println("chuc mung ban trung gia doc dat");   
+            }else if(n<i){
+             System.out.println(" nhap so lon hon");
+            }
+        } while (n != i);
+        
+    }
+}
