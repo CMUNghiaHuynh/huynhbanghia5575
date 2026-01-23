@@ -1,0 +1,25 @@
+package baitap2;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class bai2 {
+
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<String> cha = new ArrayList<>();
+        System.out.println("danh sach mau : do xanh tim den trang");
+        cha.add("do");
+        cha.add("xanh");
+        cha.add("tim");
+        cha.add("den");
+        cha.add("trang");
+        System.out.print("vi tri thay mau:");
+        int n = non.nextInt();
+        cha.set(n, "vang");
+        System.out.print("danh sach mau sau khi thay doi :");
+        for (String num : cha) {
+            System.out.print(" " + num + " ");
+        }
+    }
+}
