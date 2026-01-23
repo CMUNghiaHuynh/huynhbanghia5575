@@ -1,0 +1,19 @@
+package baitap2;
+import java.util.Scanner;
+import java.util.ArrayList;
+public class bai8 {
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<String> nghia = new ArrayList<>();
+        nghia.add("tao");
+        nghia.add("xung");
+        nghia.add("ca");
+        nghia.add("buoi");
+        nghia.add("thanh long");
+        ArrayList<String>thong = new ArrayList<>(nghia);
+        System.out.print("danh sach trai cay cua nghia :");
+        System.out.println(nghia);
+        System.out.print("danh sach trai cay cua thong(ban sao chep) :");
+        System.out.print(thong);
+    }
+}
