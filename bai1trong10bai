@@ -1,0 +1,20 @@
+package baitap2;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class bai1 {
+
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<Integer> cha = new ArrayList<>();
+
+        for (int i = 1; i <= 10; i++) {
+
+            cha.add(i);
+        }
+         System.out.print("danh sach so :");
+         for (Integer num : cha) {
+            System.out.print(" " + num+" ");
+    }
+}}
