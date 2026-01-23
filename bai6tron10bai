@@ -1,0 +1,26 @@
+package baitap2;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.*;
+
+public class bai6 {
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<Integer> cha = new ArrayList<>();
+        Random r = new Random();
+        for (int i = 1; i <= 15; i++) {
+            cha.add(r.nextInt(50)+1);
+        }
+        System.out.print(" danh sach ban dau :");
+        System.out.println(cha);
+        int chan =0;int le =0;
+        for(int o : cha)
+        if(o%2==0){
+           chan++;
+        }else{
+            le++;
+        }
+        System.out.print(" danh sach chan :"+chan);
+        System.out.print(" danh sach le :"+le);
+    }
+}
