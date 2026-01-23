@@ -1,0 +1,25 @@
+package baitap2;
+import java.util.Scanner;
+import java.util.ArrayList;
+public class bai10 {
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<String>nghia= new ArrayList<>();
+        System.out.println("-----------nhap it nhat 1 ten trung lap----------");
+        for(int i = 1;i<=5;i++){
+           System.out.print("nhap ten thu "+i+":");
+           String n = non.nextLine();
+           nghia.add(n);
+        }
+        System.out.print("danh sach ban dau:");
+        System.out.println(nghia);
+        ArrayList<String>thong= new ArrayList<>();
+        for(String name: nghia ){
+            if(!thong.contains(name)){
+                thong.add(name);
+            }
+        }
+       System.out.print("danh sach sau chinh sua:"); 
+       System.out.println(thong);
+    }
+}
