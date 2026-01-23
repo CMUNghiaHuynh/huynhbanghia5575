@@ -1,0 +1,21 @@
+package baitap2;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
+public class bai9 {
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        ArrayList<Integer>cha= new ArrayList<>();
+        for(int i = 1;i<=5;i++){
+            System.out.print("nhap so nguyen "+i+":");
+            int s = non.nextInt();
+           cha.add(s);
+        }
+        int max = Collections.max(cha);
+        int min = Collections.min(cha);
+        System.out.print("danh sach ban dau:");
+        System.out.println(cha);
+        System.out.println("so lon nhat:"+max);
+        System.out.println("so nho nhat:"+min);
+    }
+}
