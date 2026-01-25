@@ -1,0 +1,21 @@
+package baitap2;
+import java.util.ArrayList;
+import java.util.Random;
+public class Bai12 {
+    public static void main(String[] args) {
+        ArrayList<Integer> nghia = new ArrayList<>();
+        Random r = new Random();
+        int sum = 0;
+
+        
+        for (int i = 0; i < 10; i++) {
+            int x = r.nextInt(100) + 1;
+            nghia.add(x);
+            sum += x;
+        }
+
+        System.out.println("Danh sách số:");
+        System.out.println(nghia);
+        System.out.println("Tổng các phần tử: " + sum);
+    }
+}
