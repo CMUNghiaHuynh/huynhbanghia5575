@@ -1,0 +1,22 @@
+gói lec7;
+
+import java.util.Scanner;
+
+lớp công khai bai5 {
+
+    public static void main(String[] args) {
+        Scanner non = new Scanner(System.in);
+        System.out.print(" nhap chuoi :");
+        Chuỗi nghĩa = non.nextLine();
+        System.out.print(" nhap ky tu can dem :");
+        
+        char kyTu = non.next().charAt(0);
+        int dem = 0;
+        for (int i = 0; i < nghia.length(); i++) {
+            if (nghia.charAt(i) == kyTu) {
+                dem++;
+            }
+        }
+        System.out.print(" so ký tu:" + dem);
+    }
+}
