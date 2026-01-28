@@ -1,0 +1,30 @@
+package depchx;
+import java.util.*;
+
+public class deptraicojsai {
+    public static void main(String[] args) {
+        Scanner nghia = new Scanner(System.in);
+        System.out.print("Nhập chuỗi: ");
+        String thong = nghia.nextLine();
+
+        StringBuilder so = new StringBuilder();
+
+        for (int i = 0; i < thong.length(); i++) {
+            char minh = thong.charAt(i);
+
+            if (Character.isDigit(minh)) {
+                so.append(minh);
+            } else {
+                if (so.length() > 0) {
+                    System.out.print(so + " ");
+                    so.setLength(0);
+                }
+            }
+        }
+
+        
+        if (so.length() > 0) {
+            System.out.print(so);
+        }
+    }
+}
