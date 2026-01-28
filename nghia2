@@ -1,0 +1,13 @@
+gói lec7;
+import java.util.Scanner;
+lớp công khai bai2 {
+    public static void main(String[] args) {
+       Scanner non = new Scanner(System.in);
+       System.out.print(" nhap chuoi :");
+       Chuỗi nghĩa = non.nextLine();
+       
+       String[] quan = nghia.trim().split("\\s+");
+       System.out.print("so tu :"+quan.length);
+
+    }
+}
