@@ -1,0 +1,13 @@
+gói lec7;
+
+import java.util.Scanner;
+public class bai3 {
+     public static void main(String[] args) {
+       Scanner non = new Scanner(System.in);
+       System.out.print(" nhap chuoi :");
+       Chuỗi nghĩa = non.nextLine();
+       String dao = new StringBuilder(nghia).reverse().toString();
+       System.out.println(dao);
+       
+     }
+}
