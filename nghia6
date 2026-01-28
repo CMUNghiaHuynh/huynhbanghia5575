@@ -1,0 +1,17 @@
+gói lec7;
+import java.util.Scanner;
+
+lớp công khai bai6 {
+    public static void main(String[] args) {
+   Scanner non = new Scanner(System.in);
+        System.out.print(" nhap chuoi :");
+        Chuỗi nghĩa = non.nextLine();
+        System.out.print(" nhap tu can thay :");
+        String thong = non.nextLine();
+        System.out.print(" nhap tu muon thay :");
+        Chuỗi quan = non.nextLine();
+        Chuỗi minh = nghia.replace(thông,quan);
+        System.out.print(" chuoi sau khi thay :"+minh);
+        
+         
+}}
