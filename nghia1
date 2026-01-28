@@ -1,0 +1,13 @@
+gói lec7;
+import java.util.Scanner;
+lớp công khai bai1 {
+    public static void main(String[] args) {
+       Scanner non = new Scanner(System.in);
+       System.out.print(" nhap chuoi :");
+       Chuỗi nghĩa = non.nextLine();
+       int thong = nghia.length();
+       System.out.print(" so thu tu:"+thong);
+       
+    }
+    
+}
